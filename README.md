@@ -34,27 +34,9 @@ Amount: Transaction amount
 
 This architecture ensures that the system is scalable, accurate, and suitable for real-world fraud detection scenarios. The overall system follows the pipeline shown below: 
 
-Raw Transaction Data 
+<img width="217" height="211" alt="image" src="https://github.com/user-attachments/assets/3ddc415b-ef5e-4dff-96ee-d6420a6b129b" />
 
-       ↓ 
-       
-Data Preprocessing & Scaling 
 
-       ↓ 
-
-SMOTE (Class Imbalance Handling) 
-
-       ↓ 
-
-Random Forest Model Training 
-      
-       ↓ 
-
-Model Evaluation 
-
-       ↓ 
-
-Automatic Transaction Testing 
 
 6. Model Design 
 
